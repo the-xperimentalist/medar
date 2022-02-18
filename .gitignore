@@ -142,20 +142,21 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+### To be modified later??? ###
 ### Web ###
-*.asp
-*.cer
-*.csr
-*.css
-*.htm
-*.html
-*.js
-*.jsp
-*.php
-*.rss
-*.wasm
-*.wat
-*.xhtml
+# *.asp
+# *.cer
+# *.csr
+# *.css
+# *.htm
+# *.html
+# *.js
+# *.jsp
+# *.php
+# *.rss
+# *.wasm
+# *.wat
+# *.xhtml
 
 ### pem ###
 *.pem
