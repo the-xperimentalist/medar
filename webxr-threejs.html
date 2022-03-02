@@ -234,6 +234,7 @@
       function updateAnimation() {
         let dt = (Date.now() - lastFrame) / 1000;
         lastFrame = Date.now();
+        model.rotation.y += 0.0025;
         if (mixer) {
           mixer.update(dt);
         }  
@@ -242,6 +243,7 @@
       function onXRFrame(t, frame) {
         let session = frame.session;
         session.requestAnimationFrame(onXRFrame);
+        model.rotation.y += 0.0025;
 
         if (xrHitTestSource) {
           // obtain hit test results by casting a ray from the center of device screen
